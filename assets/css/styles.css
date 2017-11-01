@@ -1,0 +1,181 @@
+nav.navbar.navbar-default.navbar-fixed-top.custom-header{
+  color:inherit;
+}
+
+.Home{
+}
+
+.Home{
+}
+
+.home{
+  margin-top:10px;
+}
+
+.navbottom{
+  margin-bottom:5;
+}
+
+.navbottom{
+  padding-bottom:50px;
+}
+
+.picture{
+}
+
+.backgroundpic{
+  background-image:backg.jpeg;
+}
+
+.pictureback{
+  background-image:backg.jepg;
+}
+
+@media (max-width:767px) {
+  #home{
+    padding-bottom:20px;
+  }
+}
+
+@media (max-width:767px) {
+  .jumbotron p{
+    color:#bae0e2;
+    font-size:36px;
+  }
+}
+
+#home .jumbotron{
+  background-image:url(../../assets/img/user.jpeg);
+  background-position:center center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+#home .jumbtron{
+  background-image:url(../../assets/img/backg.jpeg);
+  background-position:center;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+  color:#57698e;
+  background-color:#452e2e;
+}
+
+hr{
+  border-color:#e74c3c;
+  width:87px;
+  padding-top:0px;
+}
+
+#about .container{
+}
+
+.classmarg{
+  margin-top:0px;
+  margin-bottom:2px;
+}
+
+#about p{
+  font-size:18px;
+}
+
+div.container{
+}
+
+#services .container .item i{
+  font-size:50px;
+}
+
+.site-section{
+  text-align:center;
+}
+
+#contact p{
+  font-size:larger;
+}
+
+#contact items u{
+}
+
+#contact items i{
+  text-align:left;
+  font-size:79px;
+}
+
+i.glyphicon.glyphicon-star{
+  font-size:53px;
+}
+
+i.fa.fa-instagram{
+  font-size:50px;
+  text-align:left;
+}
+
+i.fa.fa-twitter{
+  font-size:50px;
+}
+
+i.glyphicon.glyphicon-envelope{
+  font-size:50px;
+}
+
+m{
+}
+
+@media (min-width:1200px) {
+  div#home{
+    margin-top:50px;
+  }
+}
+
+p.text-center.topmargin{
+  padding-top:7px;
+  font-size:38px;
+  color:#fff;
+}
+
+p.text-center.topmargin{
+  font-size:20px;
+}
+
+@media (max-width:767px) {
+  div#home{
+    margin-top:50px;
+  }
+}
+
+img.img-circle{
+  margin-top:67px;
+}
+
+nav.navbar.navbar-default{
+  margin-bottom:0px;
+}
+
+div.jumbotron.text-center{
+  margin-top:0px;
+}
+
+div#about.classmarg{
+  padding-top:36px;
+}
+
+div#services.site-section{
+  padding-top:35px;
+}
+
+div#skills.site-section{
+  padding-top:35px;
+}
+
+div#contact.site-section{
+  padding-top:35px;
+}
+
+p.text-center{
+}
+
+i.fa.fa-twitter{
+  font-size:larger;
+}
+
