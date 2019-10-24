@@ -4,6 +4,26 @@ title = "$ cd/Home/"
 theme = "hello-friend-ng"
 
 
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = true
+disableSitemap = false
+disable404     = true
+disableHugoGeneratorInject = false
+
+
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -12,19 +32,14 @@ theme = "hello-friend-ng"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Homepage and blog by Djordje Atlialp"
+  description = "Homepage and blog by Ricardo Aggrey"
   keywords = "homepage, blog, science, informatics, development, programming"
   images = [""]
   copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 
-  # Directory name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
-  # Default theme "light" or "dark"
   defaultTheme = "dark"
 
-  disableRSS = true
-
-[[params.social]]
+  [[params.social]]
     name = "twitter"
     url  = "https://twitter.com/richardaggrey8"
 
@@ -40,12 +55,10 @@ theme = "hello-friend-ng"
     name = "linkedin"
     url  = "https://www.linkedin.com/in/richard-aggrey/"
 
-
 [languages]
   [languages.en]
     title = "Ricardo Aggrey Elianami"
     subtitle = ""
-    keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
 
@@ -57,6 +70,17 @@ theme = "hello-friend-ng"
     # path = "/img/your-example-logo.svg"
     # alt = "Your example logo alt text"
 
+    contentTypeName = "posts"
+
+    [permalinks]
+        posts = "/posts/:title/"
+
+    [author]
+        name = 'Richard Aggrey'
+    [taxonomies]
+        tag = "tags"
+        category = ""
+
 	# You can create a language based menu
     [languages.en.menu]
       [[languages.en.menu.main]]
@@ -64,7 +88,11 @@ theme = "hello-friend-ng"
         name = "About"
         url = "/about"
       [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+        identifier = "work"
+        name = "Work"
+        url = "/work"
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts"
 
