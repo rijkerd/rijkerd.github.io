@@ -1,4 +1,70 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "$ cd/Home/"
 theme = "hello-friend-ng"
+
+
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "Homepage and blog by Djordje Atlialp"
+  keywords = "homepage, blog, science, informatics, development, programming"
+  images = [""]
+  copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+  disableRSS = true
+
+[[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/richardaggrey8"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:richardaggrey7@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/rijkerd"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/richard-aggrey/"
+
+
+[languages]
+  [languages.en]
+    title = "Ricardo Aggrey Elianami"
+    subtitle = ""
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "$cd /home/"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+	# You can create a language based menu
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
+
