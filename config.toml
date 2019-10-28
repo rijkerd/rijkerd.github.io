@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://rijkerd.github.io/"
 languageCode = "en-us"
 title = "$ cd/Home/"
 theme = "hello-friend-ng"
@@ -77,9 +77,6 @@ disableHugoGeneratorInject = false
 
     [author]
         name = 'Richard Aggrey'
-    [taxonomies]
-        tag = "tags"
-        category = ""
 
 	# You can create a language based menu
     [languages.en.menu]
