@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://rijkerd.github.io"
 languageCode = "en-us"
 title = "$ cd/Home/"
 theme = "hello-friend-ng"
