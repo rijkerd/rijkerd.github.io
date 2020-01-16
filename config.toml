@@ -1,4 +1,4 @@
-baseURL = "https://rijkerd.github.io/"
+baseURL = "/"
 languageCode = "en-us"
 title = "$ cd/Home/"
 theme = "hello-friend-ng"
@@ -80,6 +80,10 @@ disableHugoGeneratorInject = false
 
 	# You can create a language based menu
     [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "home"
+        url = "/"
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
