@@ -22,6 +22,7 @@ disableRSS     = true
 disableSitemap = false
 disable404     = true
 disableHugoGeneratorInject = false
+disableLiveReload = false
 
 
 
@@ -80,10 +81,6 @@ disableHugoGeneratorInject = false
 
 	# You can create a language based menu
     [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "home"
-        name = "home"
-        url = "/"
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
