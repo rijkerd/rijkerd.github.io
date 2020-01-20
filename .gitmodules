@@ -2,7 +2,3 @@
 	path = themes/hello-friend-ng
 	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
 	branch = "master"
-[submodule "public"]
-	path = public
-	url = git@github.com:rijkerd/rijkerd.github.io.git
-	branch = master
