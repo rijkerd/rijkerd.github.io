@@ -1,0 +1,95 @@
+baseURL = "https://rijkerd.github.io"
+languageCode = "en-us"
+title = "$ cd/Home/"
+theme = "hello-friend-ng"
+
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = true
+disableSitemap = false
+disable404     = true
+disableHugoGeneratorInject = false
+disableLiveReload = false
+
+
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "Homepage and blog by Ricardo Aggrey"
+  keywords = "homepage, blog, science, informatics, development, programming"
+  images = [""]
+  copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+
+  defaultTheme = "dark"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/richardaggrey8"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:richardaggrey7@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/rijkerd"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/richard-aggrey/"
+
+[languages]
+  [languages.en]
+    title = "Ricardo Aggrey Elianami"
+    subtitle = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "$cd /home/"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+    contentTypeName = "posts"
+
+    [permalinks]
+        posts = "/posts/:title/"
+
+    [author]
+        name = 'Richard Aggrey'
+
+	# You can create a language based menu
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "work"
+        name = "Work"
+        url = "/work"
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts"
