@@ -12,6 +12,7 @@ publishDir   = "public"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
+googleAnalytics = "UA-149523991-1"
 
 
 enableRobotsTXT = true
